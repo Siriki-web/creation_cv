@@ -1,0 +1,227 @@
+@font-face{
+    font-family: 'Dayrom';
+    src: url('tp_images_polices/polices/dayrom.eot');
+    src: url('tp_images_polices/polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('tp_images_polices/polices/dayrom.woff') format('woff'),
+         url('tp_images_polices/polices/dayrom.ttf') format('truetype'),
+         url('tp_images_polices/polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;     
+}
+
+main{
+    background: linear-gradient(to right bottom, rgba(0, 0, 64), rgba(0,0,64));
+    margin-top: 5px;
+    box-shadow: 2px 0px 1px 2px rgb(148, 155, 148);
+}
+
+
+body{
+    width: 70%;
+    margin: auto;
+    background: white;
+    color: white;
+    font-size: 0.9em;
+}
+
+#header-titre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#header-titre h2{
+    opacity: 0.4;
+}
+
+.lien-social{
+    height: 25px;
+    width: 25px;
+}
+
+.line{
+    width: 80%;
+    height: 2px;
+    background: turquoise repeat-x;
+    margin-top: 130px;
+}
+
+.line1{
+    width: 5%;
+    height: 2px;
+    background: turquoise repeat-x;
+    margin-top: 130px;
+}
+
+.line-cercle{
+    display: flex;
+}
+
+.photo-cv{
+    border-radius: 50%;
+    margin-left: 0;
+    border: 2px solid turquoise;
+    margin-top: 0;
+}
+
+.lien-social{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.reseau-socio{
+    display: flex;
+    align-items: center;
+}
+
+.reseau-socio p{
+    padding: 8px;
+}
+
+.image{
+    border-radius: 50%;
+    margin-left: 0;
+    border: 2px solid turquoise;
+    height:70px;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    margin: 10px;
+}
+
+.mes-experiences{
+    display: flex;
+}
+
+.experience{
+    flex: 3;
+}
+
+.paragraphe{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Les titres de niveau 1 */
+.titre{
+    color: turquoise;
+    font-family: Dayrom, serif;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+}
+
+
+.entreprise1{
+    margin-left: 20px;
+}
+
+h2{
+    text-align: left;
+}
+
+.formation{
+    display: flex;
+}
+
+.etude{
+    margin-left: 10px;
+}
+
+
+.comp{
+    background-color: tomato;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.contact-skills{
+    margin-left: auto;
+    flex: 2.3;
+}
+
+/* Competence */
+
+.bouton-btn{
+    display: flex;
+}
+
+.comp-btn1, .comp-btn2, .comp-btn3, .comp-btn4, .comp-btn5, .comp-btn6,
+.comp-btn7, .comp-btn8, .comp-btn9, .comp-btn10, .comp-btn11{
+    display: flex;
+    align-items: center;
+}
+
+.comp-btn1{
+    margin-left: 5px;
+}
+
+.comp-btn2{
+    margin-left: 50px;
+}
+.comp-btn3{
+    margin-left: 65px;
+}
+
+.comp-btn4{
+    margin-left: 55px;
+}
+
+.comp-btn5{
+    margin-left: 60px;
+}
+
+.comp-btn6{
+    margin-left: 55px;
+}
+
+.comp-btn7{
+    margin-left: 70px;
+}
+
+.comp-btn8{
+    margin-left: 65px;
+}
+
+.comp-btn9{
+    margin-left: 60px;
+}
+
+.comp-btn10{
+    margin-left: 50px;
+}
+
+.comp-btn11{
+    margin-left: 50px;
+}
+
+.niveau{
+    display: flex;
+}
+
+.comp1, .comp2, .comp3{
+    border: 1px solid tomato;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+}
+
+.rond{
+    height:10px;
+    width: 10px;
+    background-color: turquoise;
+    border-radius: 50%;
+}
